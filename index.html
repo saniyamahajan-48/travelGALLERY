@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Explorer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Travel Explorer 🌍</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1 data-aos="fade-down">Explore Beautiful Places</h1>
+
+    <!-- Filter Buttons -->
+    <div class="filters">
+        <button onclick="filterSelection('all')">All</button>
+        <button onclick="filterSelection('asia')">Asia</button>
+        <button onclick="filterSelection('europe')">Europe</button>
+        <button onclick="filterSelection('beach')">Beaches</button>
+    </div>
+
+    <!-- Gallery -->
+    <div class="gallery">
+
+        <!-- Bali -->
+        <div class="card asia beach" data-aos="zoom-in">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800" alt="Bali">
+            <div class="overlay"><h2>Bali</h2></div>
+        </div>
+
+        <!-- Paris -->
+        <div class="card europe" data-aos="zoom-in">
+            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800" alt="Paris">
+            <div class="overlay"><h2>Paris</h2></div>
+        </div>
+
+        <!-- Switzerland -->
+        <div class="card europe" data-aos="zoom-in">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800" alt="Switzerland">
+            <div class="overlay"><h2>Switzerland</h2></div>
+        </div>
+
+        <!-- Maldives -->
+        <div class="card asia beach" data-aos="zoom-in">
+            <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?w=800" alt="Maldives">
+            <div class="overlay"><h2>Maldives</h2></div>
+        </div>
+
+        <!-- Dubai -->
+        <div class="card asia" data-aos="zoom-in">
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800" alt="Dubai">
+            <div class="overlay"><h2>Dubai</h2></div>
+        </div>
+
+        <!-- Hawaii -->
+        <div class="card beach" data-aos="zoom-in">
+            <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=800" alt="Hawaii">
+            <div class="overlay"><h2>Hawaii</h2></div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" data-aos="fade-up">
+        <div class="footer-content">
+            <h3>Travel Explorer 🌍</h3>
+            <p>Discover the world's most beautiful destinations.</p>
+            <ul class="socials">
+                <li><a href="#" aria-label="Facebook">👍</a></li>
+                <li><a href="#" aria-label="Twitter">🐦</a></li>
+                <li><a href="#" aria-label="Instagram">📸</a></li>
+                <li><a href="#" aria-label="LinkedIn">🔗</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Travel Explorer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
